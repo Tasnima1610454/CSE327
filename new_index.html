@@ -53,19 +53,18 @@
             </ul>
 
           </li>
-          <li class="menu-has-children"><a href="">Used Cars</a>
-            <ul>
-              <li><a href="used_sedan_1.html">Sedan</a></li>
-              <li><a href="#">SUV</a></li>
-              <li><a href="#">Hybrid</a></li>
-            </ul>
-          </li>
-            <li class="menu-active"><a href="login.html">Login</a></li>
 
-          <form class="form-inline ml-auto">
-            <input class="form-control" type="text" placeholder="search">
-            <button class="btn btn-success">Search</button>
-          </form>
+          <li class="menu-active"><a href="used_sedan_1.html">Used Cars</a></li>
+
+
+
+            <li class="menu-active"><a href="register/register.php">Login</a></li>
+
+            <form class="form-inline ml-auto" action="search.php" method="post">
+              <input class="form-control" type="text" name="search" placeholder="search">
+              <input type="submit" class="btn btn-primary"  value="Search">
+
+            </form>
 
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -401,7 +400,7 @@ As a buyer, you have access to the largest dedicated Car Portal in Bangladesh, f
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Md Nafis Raihan</h4>
-                  <span>Kuttar bachcha Magi :) </span>
+                  <span>Frontend & Backend </span>
                   <div class="social">
                     <a href=""><i class="fa fa-facebook"></i></a>
 
@@ -417,7 +416,7 @@ As a buyer, you have access to the largest dedicated Car Portal in Bangladesh, f
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Tasnima Matin Labonno</h4>
-                  <span>CEO of GOOGLE </span>
+                  <span>Frontend</span>
                   <div class="social">
 
                     <a href=""><i class="fa fa-facebook"></i></a>
@@ -538,20 +537,14 @@ As a buyer, you have access to the largest dedicated Car Portal in Bangladesh, f
         &copy; Copyright <strong>Car Hub</strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
-        -->
 
       </div>
     </div>
-  </footer><!-- #footer -->
+  </footer>
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-  <!-- JavaScript Libraries -->
+
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -565,10 +558,10 @@ As a buyer, you have access to the largest dedicated Car Portal in Bangladesh, f
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-  <!-- Contact Form JavaScript File -->
+
   <script src="contactform/contactform.js"></script>
 
-  <!-- Template Main Javascript File -->
+
   <script src="js/main.js"></script>
 
 </body>
